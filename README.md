@@ -27,28 +27,28 @@ Or:
 
 ### Operations
 
-     QVct::QVector2f v2d3 = v2d1 + v2d2;
-     QVct::QVector2f v2d3 = v2d1 - v2d2;
-     QVct::QVector2f v2d3 = v2d1 * v2d2;
-     Qvct::QVector2f v2d3 = v2d1 / v2d2;
+    QVct::QVector2f v2d3 = v2d1 + v2d2;
+    QVct::QVector2f v2d3 = v2d1 - v2d2;
+    QVct::QVector2f v2d3 = v2d1 * v2d2;
+    Qvct::QVector2f v2d3 = v2d1 / v2d2;
 
-     QVct::QVector3f v3d3 = v3d1 + v3d2;
-     QVct::QVector3f v3d3 = v3d1 - v3d2;
-     QVct::QVector3f v3d3 = v3d1 * v3d2;
-     Qvct::QVector3f v3d3 = v3d1 / v3d2;
+    QVct::QVector3f v3d3 = v3d1 + v3d2;
+    QVct::QVector3f v3d3 = v3d1 - v3d2;
+    QVct::QVector3f v3d3 = v3d1 * v3d2;
+    Qvct::QVector3f v3d3 = v3d1 / v3d2;
 
 ### Print
 
-     v2d3.print();
-     v3d3.print();
+    v2d3.print();
+    v3d3.print();
 
 Or:
 
-     std::cout << v2d3 << '\n';
-     std::cout << v3d3 << '\n';
+    std::cout << v2d3 << '\n';
+    std::cout << v3d3 << '\n';
 
 ### Increment or Decrement
 
-     v2d3.increment(3).increment(1).decrement(1);
-     v3d3.increment(3).increment(1).decrement(1);
+    v2d3.increment(3).increment(1).decrement(1);
+    v3d3.increment(3).increment(1).decrement(1);
 
